@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+    
+        
+</head>
+<body>    
+
+    <form action="contact-action" method="post"> 
+
+        <input type="text" name="firstname" size="30" maxlength="20" value="pardon enter the name of your site" autofocus required/>
+
+
+        <fieldset>
+            <legend> your information </legend>
+        <p>
+        <label>firstname: <input type="text" name="firstname"  required/> </label>
+        </p>
+
+
+        <p>
+        <label> Email: <input type="text" name="Email" required/></label>
+        </p>
+
+        <p>
+        <label> phone: <input type="text" name="phone" value="phone number " required /></label>
+        </p>
+        </fieldset>
+
+        
+    <fieldset>
+            <legend> referral </legend>
+        <fieldset>    
+            <p>
+           <legend> how did you hear about my page ( check all that apply):</legend>
+
+            <label>search engine <input type="checkbox" name="referrer" value="searchengine"/> </label>
+            <label> print AD <input type="checkbox" name="referrer" value="printed"/></label>
+            <label> radio AD <input type="checkbox" name="referrer" value="radioad"/></label>
+            </p>
+        </fieldset>    
+    </fieldset>
+
+    <fieldset>
+        <fieldset>
+            <p>
+            <legend>    pardon select your preferred method of contact: </legend>
+
+                <label> Email <input type="radio" name="contact" value="Email/"></label>
+                <label> postal mail <input type="radio" name="contact" value="mail" /></label>
+                <label> phone <input type="radio" name="contact" value="phone" /></label>
+            </p>
+        </fieldset>
+    </fieldset>
+
+
+        <fieldset>
+            <legend> park visitation </legend>
+            <p>
+                <label> in which state do you hear about this name?<br /></label>
+                <select name="parksbyregionandstate">
+                    <optgroup label="alaska region">
+                        <option value="AK"> Alaska</option>
+                    </optgroup>
+
+                    <optgroup label="midwest region">
+                        <option value="AR">Arkansas</option>
+                        <option value="IL"> illinois</option>
+                        <option value="IN"> indiana</option>  
+                        <option value="IA"> iowa</option>
+                        <option value="KS"> kansas</option>
+                        <option value="MI"> michigan</option>
+                        <option value="MN"> minnesota</option>
+                        <option value="MO"> missourl</option>
+                        <option value="NE"> nebr aska</option>
+                        <option value="ND"> north dakota</option>
+                        <option value="OH"> ohio</option>
+                        <option value="SD"> south dakota</option>
+                        <option value=" WI"> wisconsin</option>
+
+                    </optgroup>
+                </p>    
+        </fieldset>
+
+
+        <fieldset>
+            <legend> yourcomments </legend>
+                    <p>
+                    <label> additional comments: <br />
+                        <textarea name=" comments" rows="5" cols="30"></textarea>
+
+                    </label>
+                  </p>
+        </fieldset>
+
+
+        <fieldset>
+            <legend> your password </legend>
+
+                <label> create a password: <input type="text"  name="password"  value="password" /></label>
+        </fieldset>
+        
+
+        <fieldset>
+            <legend> file to upload </legend>
+                <p> 
+                    <label> if you would like us to refiew a file, please upload it:   
+                        <input type="file" name="upload" />
+
+                    </label>
+               </p>
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend> your enteration </legend>
+               <p> 
+                <input type="submit" value="contact us" />
+               </p>
+        </fieldset>
+                
+
+    </form> 
+<br />
+<br />
+<br />
+<br />
+<br />
+    <form>
+        <h1> welcome to gfg </h1>
+        <label for=" username"> username:</label>
+        <input type="text" name=" username" id="username" placeholder="please enter your username" required autofocus />
+<br />
+<br />
+        <label for=" password"> password:</label>
+        <input type="password" name=" password" id="password" minlength="8" placeholder="enter your password" required />
+<br />
+<br />
+        <input type="submit" value="submit" />
+
+    </form>
+<br />
+<br />
+<br />
+<br />
+<br />
+
+    <form>
+        <h1> HTML</h1>
+        <label for="firstname"> firstname:</label>
+        <input type="text" name=" firstname" id=" firstname" placeholder=" enter your firstname" autofocus required/>
+<br />
+<br />
+        <label for=" lastname"> lastname:</label>
+        <input type="text" id="lastname" placeholder=" enter your last name" required/>
+<br />
+<br />
+        <label for="E-Mail"> E-Mail:</label>
+        <input type="text" id=" E-Mail" placeholder=" enter your E-Mail" required />
+<br />
+<br />
+
+<br />
+<br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for=" male"> male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for=" female"> female</label>
+<br />
+<br />
+
+
+        <input type="submit" value=" submit" />
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
